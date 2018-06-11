@@ -13,7 +13,7 @@ AUTH_HEADER = "Basic " + Base64.strict_encode64(CLIENT_ID + ":" + CLIENT_SECRET)
 SPOTIFY_ACCOUNTS_ENDPOINT = URI.parse("https://accounts.spotify.com")
 
 get '/' do
-"CHANGED GET ROUTE"    
+"Welcome to Musicalyze"    
 end
 
 post '/swap' do
